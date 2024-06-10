@@ -1,0 +1,101 @@
+body {
+    background-color: darkslateblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: beige;
+    border-radius: 3px;
+}
+.login-box {
+    width: 360px;
+    font-size: 15px;
+    height: 360px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: beige;
+}
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: darkseagreen;
+    color: white;
+    font-size: 18px;
+}
+.submit-btn:hover {
+    background-color: darkslateblue;
+    border: 2px solid;
+    cursor: pointer;
+}
+p {
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.para-2 a {
+    color: darkseagreen;
+}
+
+.table {
+    background-color: wheat;
+    width: 70%;
+    margin-left: 200px;
+    text-align: center;
+}
+
+#Pupil {
+  font-family: 'Times New Roman', Times, serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+#Pupil td, #Pupil th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: black;
+}
+
+#Pupil tr:nth-child(even){background-color: darkseagreen;}
+
+#Pupil td:hover {background-color: darkslateblue;}
+
+#Pupil th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(194, 129, 8);
+  color: black;
+}
